@@ -1,0 +1,149 @@
+.texto{
+  color: #000000;
+  margin-top: 12px;
+  text-align: center;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+.dimg{
+  background: #0000;
+}
+li{
+  list-style-type: none;
+}
+.sect1{
+  margin-top: -35px;
+}
+.sect2{
+  margin-top: -35px;
+}
+li a{
+  color: black;
+  text-decoration: none;
+}
+.divul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 200px;
+  color: #0000;
+  height: 65px;
+}
+#avent{
+   display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 15px;
+    margin: 4em;
+    cursor: pointer;
+    height: 105px;
+    width: 85px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: black;
+    transition: 0.7s ease;
+}
+#avent:hover {
+    transform: scale(1.1);
+  }
+  .contents{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+    min-height: 2px;
+    min-width: 160px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+  }
+  contents a{
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.artes{
+  cursor: pointer;
+  border: none;
+}
+.artes:hover{
+  background-color: #f0f0f0;
+}
+.aventureiro{
+  position: relative;
+  display: inline-block;
+}
+
+.content{
+  display: none;
+  position: absolute;
+ /* background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.1);*/
+  background-color: red;
+  min-height: 260px;
+  min-width: 160px;
+  text-align: center;
+  /*box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
+  overflow: auto;
+}
+.artes:hover, .artes:focus{
+  background-color: #f0f0f0;
+}
+.show{
+  display: flex;
+}
+
+.shows{
+  display: block;
+}
+
+/*.footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 200px;
+  margin-top: 40%;
+  position: absolute;
+  height: 25em;
+  width: 100%;
+  z-index: 9999%;
+  background-color: #000000;
+  }*/
+ .Sicon a{
+    color: #999999;
+    font-size: 3em;
+    padding-right: 60px;
+  }
+  .Sicon:hover{
+    background-color: #ffff;
+  }
+
+  /*.dimg{
+    background-image: url("../aventu.png");
+    height: 95px;
+    width: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }*/
+.sect{
+  width: 100vw;
+  margin-top: -5px;
+}
